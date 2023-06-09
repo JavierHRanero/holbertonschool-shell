@@ -1,2 +1,6 @@
 #!/bin/bash
-printf "%s\n" "(cd)"
+home_directory=$HOME
+cd "$home_directory"
+echo "Directorio actual: $(pwd)"
+
+
