@@ -1,2 +1,2 @@
 #!/bin/bash
-"(cd - root)"
+home_directory=$HOME cd "$home_directory"
