@@ -1,6 +1,4 @@
 #!/bin/bash
-home_directory=$HOME
-cd "$home_directory"
-echo "Directorio actual: $(pwd)"
+cd ~
 
 
