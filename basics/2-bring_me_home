@@ -1,2 +1,2 @@
 #!/bin/bash
-home_directory=$HOME cd "$home_directory"
+printf "%s\n" "(cd)"
