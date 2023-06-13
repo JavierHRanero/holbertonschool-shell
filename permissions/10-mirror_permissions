@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(tac hello)" > hello
+chmod 751 hello
