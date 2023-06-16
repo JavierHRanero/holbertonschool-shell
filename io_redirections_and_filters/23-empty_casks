@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -empty -exec sh -c 'echo "${0##*/}"' {} \; -o -type f -empty -exec sh -c 'echo "${0##*/}"' {} \;
+find . -type d -empty -print0 -o -type f -empty -print0 2>/dev/null | tr -d '\0' | rev | cut -d '/' -f 1 | rev
